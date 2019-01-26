@@ -33,4 +33,22 @@ $var:file read "class"
 # returns:
 #   ("math", "science")
 $var:file write "class" "new_class"
+# will edit "sample.yaml" as:
+# class:
+#   math:
+#     ...
+#   science:
+#     ...
+#   new_class
+$var:file write "class.math" "2"
+# will edit "sample.yaml" as:
+# class:
+#   math:
+#     3:
+#       ...
+#     C:
+#       ...
+#     2
 ```
+
+
