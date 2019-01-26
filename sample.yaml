@@ -1,0 +1,19 @@
+class:
+  math:
+    3:
+      - 2019-01-25
+      - 2019-01-26
+    C:
+      - 2019-01-25
+      - 2019-01-26
+  science:
+    biology:
+      - 2019-01-25
+      - 2019-01-26
+    chemistory:
+      - 2019-01-25
+      - 2019-01-26
+comittees:
+  foo: describe
+  bar: describe
+  baz: describe!
